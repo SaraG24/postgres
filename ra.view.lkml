@@ -18,6 +18,7 @@ view: ra {
 
   dimension: state {
     type: string
+
     sql: ${TABLE}.state ;;
   }
 

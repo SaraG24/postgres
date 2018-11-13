@@ -13,4 +13,11 @@ datagroup: postgres_default_datagroup {
 
 persist_with: postgres_default_datagroup
 
-explore: ra {}
+explore: ra {
+  always_filter: {
+    filters: {
+      field: state
+      value: "Kansas"
+    }
+}
+}
